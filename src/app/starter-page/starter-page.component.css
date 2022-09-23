@@ -36,7 +36,7 @@
     height: 250px;
     justify-content: space-around;
     font-size: 22px;
-    font-family: Lobster;   
+    font-family: Lobster;
 }
 
 .section_one {
@@ -44,6 +44,7 @@
     width: 360px;
     text-align: center;
     border-radius: 25px;
+    text-align: left
 }
 
 .section_two {
@@ -59,7 +60,9 @@
     width: 360px;
     text-align: center;
     border-radius: 25px;
+    text-align: left
 }
 
 .bibleIcon {
-   color: rgb(0, 204, 0)}
+   color: rgb(0, 204, 0)
+}

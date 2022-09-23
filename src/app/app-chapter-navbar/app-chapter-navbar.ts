@@ -9,12 +9,10 @@ import { Router } from '@angular/router';
 export class AppChapterNavbar implements OnInit {
   selectedChapterNumber:number = 1;
   selectedBookIndex:number = 0;
- 
   @Output() changeToNextBook: EventEmitter<any> = new EventEmitter();
   @Output() changeToNextChapter: EventEmitter<any> = new EventEmitter();
   @Output() changeToPreviousBook: EventEmitter<any> = new EventEmitter();
   @Output() changeToPreviousChapter: EventEmitter<any> = new EventEmitter(); 
-
   chapters = [
     {chapter:1},
     {chapter:2},
@@ -193,7 +191,7 @@ export class AppChapterNavbar implements OnInit {
   selectBookAndChapterWithNavBar () {
     let actualChapter = 0
     actualChapter = this.selectedChapterNumber - 1
-      this.router.navigateByUrl('bible/'+ this.selectedBookIndex + '/' + actualChapter)
+    this.router.navigateByUrl('bible/'+ this.selectedBookIndex + '/' + actualChapter)
     }
 
   changeChapterAmmountDynamically() {

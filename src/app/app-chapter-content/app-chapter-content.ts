@@ -1,6 +1,5 @@
 import { Component, OnInit, } from '@angular/core';
-import { ActivatedRoute, Route, Router } from '@angular/router';
-import { last, max } from 'rxjs';
+import { ActivatedRoute, Router } from '@angular/router';
 import { EnBibleProviderService, Verse, } from '../en-bible-provider.service';
 
 @Component({
@@ -36,7 +35,7 @@ export class AppChapterContent implements OnInit {
       return;
     }
     this.chapter = this.chapter - 1;
-    this.router.navigateByUrl('bible/' + this.bookNumber + '/' + this.chapter)
+    this.router.navigateByUrl('bible/' + this.bookNumber + '/' + this.chapter);
   }
 
   nextBook() {
@@ -183,7 +182,7 @@ export class AppChapterContent implements OnInit {
      return
     }
     this.chapter = this.chapter + 1;
-    this.router.navigateByUrl('bible/' + this.bookNumber + '/' + this.chapter)
+    this.router.navigateByUrl('bible/' + this.bookNumber + '/' + this.chapter);
  }
  
   changeActualBookInfo() {
