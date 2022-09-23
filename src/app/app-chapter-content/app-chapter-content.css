@@ -1,0 +1,26 @@
+p {
+    margin-left: 200px;
+    margin-right: 200px;
+    text-align: left;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 30px;  
+}
+
+.buttondiv {
+    display: flex;
+    padding-top: 20px;
+}
+
+hr {
+    border-top: 2px solid black;
+    border-radius: 5px;
+}
+
+.bookinfo {
+    text-align: center;
+    background-color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}

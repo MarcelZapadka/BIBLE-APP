@@ -1,0 +1,9 @@
+<app-chapter-navbar  (changeToNextBook)="nextBook()" (changeToNextChapter)="nextChapter()" (changeToPreviousBook)="previousBook()" (changeToPreviousChapter)="previousChapter()"></app-chapter-navbar>
+<hr>
+<p class="bookinfo"> {{actualBookInfo}}  {{actualChapterInfo}} </p>
+<hr>
+<div *ngFor="let verse of verseList">
+    <p> {{verse.number}}. {{verse.Verse}} </p>
+</div>
+<hr>
+ 
