@@ -2,15 +2,18 @@
     text-align: center;
     margin-top: 150px;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    max-width: 1550px;
+    min-width: 150px;
+    margin-left: 20px;
+    margin-right: 20px;
 }
 
 .welcome{
-    font-size: 60px;
+    font-size: 10vh;
 }
-
 .button {
     margin-top: 70px;
-    margin-bottom: 50px;
+    bottom: 50px;
     width: 600px;
     height: 75px;
     font-size: 35px;
@@ -32,11 +35,11 @@
     margin-right: 100px;
     margin-top: 30px;
     display: flex;
-    width: 1300px;
-    height: 250px;
+    max-width: 1550px;
     justify-content: space-around;
     font-size: 22px;
     font-family: Lobster;
+
 }
 
 .section_one {
@@ -65,4 +68,64 @@
 
 .bibleIcon {
    color: rgb(0, 204, 0)
+}
+
+@media (max-width:1000px) {
+    .sections {
+    margin-left: 10px;
+    margin-right: 10px;}
+}
+
+@media (max-width:620px) {
+    .starter_page {
+        margin-top: 20px;
+    }
+
+    .welcome {
+        font-size: 60px;
+    }
+    
+    .button {
+        width: 350px;
+        height: 60px;
+        font-size: 25px;
+        margin-top: 20px;
+    }
+
+    .sections {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+    .section_one,
+    .section_two,
+    .section_three
+     {  text-align: center;
+        margin-bottom: 40px;
+     }
+}
+
+@media (max-width:360px) {
+    .welcome {
+        font-size: 35px;
+    }
+
+    .button {
+        width:  200px;
+        height: 40px;
+    }
+    
+    .section_one,
+    .section_two,
+    .section_three {
+        font-size: 16px;
+        padding-left: 70px   ;    
+         padding-right: 70px;
+    }
+
+    .sections {
+        display: flex;
+        justify-content: center;
+        align-items: center;}
 }

@@ -1,9 +1,17 @@
 <app-chapter-navbar  (changeToNextBook)="nextBook()" (changeToNextChapter)="nextChapter()" (changeToPreviousBook)="previousBook()" (changeToPreviousChapter)="previousChapter()"></app-chapter-navbar>
 <hr>
-<p class="bookinfo"> {{actualBookInfo}}  {{actualChapterInfo}} </p>
+<p class="bookinfo"> {{actualBookInfo}}  {{actualChapterInfo}} <br></p>
 <hr>
-<div *ngFor="let verse of verseList">
-    <p> {{verse.number}}. {{verse.Verse}} </p>
+<div class="mobile-chapter-buttons">
+    <button (click)="previousChapter()">Previous chapter</button>
+    <button (click)="nextChapter()">Next chapter</button>
+</div>
+
+<div *ngFor="let verse of verseList" class="second-item">
+    <p> {{verse.number}}. {{verse.Verse}} </p> 
 </div>
 <hr>
- 
+<div class="mobile-chapter-buttons">
+    <button (click)="previousChapter()">Previous chapter</button>
+    <button (click)="nextChapter()">Next chapter</button>
+</div>

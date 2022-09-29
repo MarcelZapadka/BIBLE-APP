@@ -3,7 +3,7 @@
   <button (click)="goToPreviousChapter()" class="navigate_buttons">Previous chapter</button>
 
   <div class="book_names">
-    <label for="BookNames" class="label"> Book</label>
+    <label for="BookNames" class="label"></label>
     <select id="BookNames" [(ngModel)]="selectedBookIndex" (change)="changeChapterAmmountDynamically()">
       <option value="0"> Genesis </option>
       <option value="1"> Exodus </option>
@@ -73,14 +73,14 @@
       <option value="65"> Revelation </option>
     </select>
 
-    <label for="ChapterNames" class="chapters">Chapter</label>
+    <label for="ChapterNames" class="chapters"></label>
     <select id="ChapterNames" [(ngModel)]="selectedChapterNumber" >
       <option *ngFor="let chap of actualChaptersNumbersforBook"> {{ chap.chapter }} </option>
     </select>
   </div>
 
   <div>
-    <button class="choose_button" (click)="selectBookAndChapterWithNavBar()">Choose</button>
+    <button class="choose_button" (click)="selectBookAndChapterWithNavBar()">Go</button>
   </div>
 
   <button (click)="nextChapter()" class="navigate_buttons">Next chapter</button>

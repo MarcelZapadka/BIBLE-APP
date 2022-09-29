@@ -28,7 +28,7 @@
  #BookNames{
     margin-left: 10px;
     border-radius: 5px;
-    height: 35px;
+    height: 30px;
     text-align: center;
     font-size: 20px;
 }
@@ -36,7 +36,7 @@
 #ChapterNames {
     margin-left: 10px;
     border-radius: 5px;
-    height: 35px;
+    height: 30px;
     text-align: center;
     font-size: 20px;
 }
@@ -62,4 +62,74 @@
 
 .choose_button:hover {
     background-color: gold;
+}
+
+@media (max-width: 1260px) {
+    .navbar {
+        margin-left: 40px;
+        margin-right: 40px;
+    }
+    .navigate_buttons {
+        font-size: 16px;
+        }
+    }
+
+@media (max-width: 910px ) {
+    .navbar {
+        margin-left: 10px;
+        margin-right: 10px;
+    }
+    .navigate_buttons {
+        font-size: 16px;  
+    }
+}
+
+@media (max-width: 850px) {
+   
+    .chapters{
+        margin-left: 5px;
+    }
+
+    #ChapterNames {
+        margin-left: 0px;
+    }
+
+@media (max-width: 780px) {
+    .navigate_buttons {
+        display: none;
+    }
+
+    .navbar {
+        display: flex;
+        justify-content: space-around;
+}}
+
+@media (max-width: 400px) {
+    .navbar {
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+    #BookNames {
+        margin-left: 0px;
+        padding-left: 0px;
+        width: 150px;
+    }        
+
+        
+    .navigate_buttons {
+        display: none;
+    }
+
+    #ChapterNames {
+        height: 25px;
+        font-size: 18px;
+        margin-left: 0px;
+        padding-left: 0px;
+    }
+
+    .choose_button {
+        width: 40px;
+        font-size: 16px;
+    }
+}
 }
