@@ -12,7 +12,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 
 const routes: Routes = [
 
-  { path: '',  component: StarterPageComponent, pathMatch: 'full' }, // redirect to `app chapter`
+  { path: '',  component: StarterPageComponent, pathMatch: 'full' },
   { path: 'bible/:book/:chapter', component: AppChapterContent },
   { path: '**', component: ErrorPageComponent ,}
 
