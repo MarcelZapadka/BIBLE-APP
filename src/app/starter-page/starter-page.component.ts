@@ -1,6 +1,7 @@
 import { Component } from '@angular/core';
 import { faBookBible, faPen, faInfoCircle } from '@fortawesome/free-solid-svg-icons'
 import { Router } from '@angular/router';
+
 @Component({
   selector: 'app-starter-page',
   templateUrl: './starter-page.component.html',

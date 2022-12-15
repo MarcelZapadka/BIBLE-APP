@@ -461,7 +461,6 @@ export class AppChapterContent implements OnInit {
 
   ngOnInit(): void {
     this.route.paramMap.subscribe((data: any) => {
-      console.log('URL parametry: ', data);
       this.bookNumber = +data.params.book;
       this.chapter = +data.params.chapter;
       this.verseList = this.bibleProvider.getChapterForBook(+this.bookNumber, +this.chapter);
