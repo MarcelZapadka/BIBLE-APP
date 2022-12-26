@@ -1,0 +1,81 @@
+import { Injectable } from '@angular/core';
+
+interface bibleInfo {
+  Book: string;
+  allChapters: number;
+}
+
+@Injectable({
+  providedIn: 'root'
+})
+export class BibleinfoProviderService {
+
+  BibleInfo: bibleInfo[] = [
+    {Book: "Genesis", allChapters: 50},
+    {Book: "Exodus", allChapters: 40},
+    {Book: "Leviticus", allChapters: 27},
+    {Book: "Numbers", allChapters: 36},
+    {Book: "Deuteronomy", allChapters: 34},
+    {Book: "Joshua", allChapters: 24},
+    {Book: "Judges", allChapters: 21},
+    {Book: "Ruth", allChapters: 4},
+    {Book: "First Samuel", allChapters: 31},
+    {Book: "Second Samuel", allChapters: 24},
+    {Book: "First Kings", allChapters: 22},
+    {Book: "Second Kings", allChapters: 25},
+    {Book: "First Chronicles", allChapters: 29},
+    {Book: "Second Chronicles", allChapters: 36},
+    {Book: "Ezra", allChapters: 10},
+    {Book: "Nehemiah", allChapters: 13},
+    {Book: "Esther", allChapters: 10},
+    {Book: "Job", allChapters: 42},
+    {Book: "Psalms", allChapters: 150},
+    {Book: "Proverbs", allChapters: 31},
+    {Book: "Ecclesiastes", allChapters: 12},
+    {Book: "Song of Songs", allChapters: 8},
+    {Book: "Isaiah", allChapters: 66},
+    {Book: "Jeremiah", allChapters: 52},
+    {Book: "Lamentations", allChapters: 5},
+    {Book: "Ezekiel", allChapters: 48},
+    {Book: "Daniel", allChapters: 12},
+    {Book: "Hosea", allChapters: 14},
+    {Book: "Joel", allChapters: 3},
+    {Book: "Amos", allChapters: 9},
+    {Book: "Obadiah", allChapters: 1},
+    {Book: "Jonah", allChapters: 4},
+    {Book: "Micah", allChapters: 7},
+    {Book: "Nahum", allChapters: 3},
+    {Book: "Habakkuk", allChapters: 3},
+    {Book: "Zephaniah", allChapters: 3},
+    {Book: "Haggai", allChapters: 2},
+    {Book: "Zechariah", allChapters: 14},
+    {Book: "Malachi", allChapters: 4},
+    {Book: "Matthew", allChapters: 28},
+    {Book: "Mark", allChapters: 16},
+    {Book: "Luke", allChapters: 24},
+    {Book: "John", allChapters: 21},
+    {Book: "Apostles", allChapters: 28},
+    {Book: "Romans", allChapters: 16},
+    {Book: "First Corinthians", allChapters: 16},
+    {Book: "Second Corinthians", allChapters: 13},
+    {Book: "Galatians", allChapters: 6},
+    {Book: "Ephesians", allChapters: 6},
+    {Book: "Philippians", allChapters: 4},
+    {Book: "Colossians", allChapters: 4},
+    {Book: "First Thessalonians", allChapters: 5},
+    {Book: "Second Thessalonians", allChapters: 3},
+    {Book: "First Timothy", allChapters: 6},
+    {Book: "Second Timothy", allChapters: 4},
+    {Book: "Titus", allChapters: 3},
+    {Book: "Philemon", allChapters: 1},
+    {Book: "Hebrews", allChapters: 13},
+    {Book: "James", allChapters: 5},
+    {Book: "First Peter", allChapters: 5},
+    {Book: "Second Peter", allChapters: 3},
+    {Book: "First John", allChapters: 5},
+    {Book: "Second John", allChapters: 1},
+    {Book: "Third John", allChapters: 1},
+    {Book: "Jude", allChapters: 1},
+    {Book: "Revelation", allChapters: 22},
+  ]
+}

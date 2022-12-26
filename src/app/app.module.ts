@@ -9,6 +9,7 @@ import { EnBibleProviderService } from './en-bible-provider.service';
 import { ErrorPageComponent } from './error-page/error-page.component';
 import { StarterPageComponent } from './starter-page/starter-page.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { ReactiveFormsModule } from '@angular/forms';
 
 const routes: Routes = [
 
@@ -31,6 +32,7 @@ const routes: Routes = [
     FormsModule,
     RouterModule.forRoot(routes),
     FontAwesomeModule,
+    ReactiveFormsModule
   ],
   providers: [
     EnBibleProviderService

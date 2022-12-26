@@ -11,11 +11,11 @@ export class StarterPageComponent {
   bibleIcon = faBookBible;
   pencilIcon = faPen;
   infoIcon = faInfoCircle;
-  
+
   constructor(
-    private router: Router
+    private router: Router,
   ) {}
-  
+
   goToBibleApp() {
     this.router.navigateByUrl('/bible/0/0');
   }
