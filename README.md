@@ -1,6 +1,10 @@
 ## Introduction
 ![NewBibleAppBanner](https://user-images.githubusercontent.com/110595617/191964252-8eeb543d-d579-4020-84f6-960442b77d87.jpg)
 
+IMPORTANT - This project is old and obsolete - click here to see fresh, new and better version of bibleApp:
+https://www.biblia.polskiezborybiblijne.pl/#/UwspolczesnionaBibliaGdanska/Ksiega-Rodzaju/1
+
+old: 
 After one month of learning Angular (three months of my journey with coding in total), I've made this app which contains some basic but really important functionalities like routing,services,dependency injection or DOM manipulation etc. For me it was cool and big project :). With Bible i learned basics of Angular. Link to app here: https://kjv-online-bible.web.app/
 ## Starter page:
 ![b1 jpg](https://user-images.githubusercontent.com/110595617/191965862-6c580b25-7a42-4b40-8912-49ad0e453307.jpg)
