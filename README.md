@@ -2,7 +2,7 @@
 ![NewBibleAppBanner](https://user-images.githubusercontent.com/110595617/191964252-8eeb543d-d579-4020-84f6-960442b77d87.jpg)
 
 ## NOTE:
-This is original and uniqe bible full stack app made by me (front-end) and my friend (back-end) in Angular framework.
+This is original and uniqe bible full stack app made by me (front-end) and my friend (back-end) in Angular framework. This is not final version of Bible. Work in progress.
 
 Link:
 https://www.biblia.polskiezborybiblijne.pl/#/UwspolczesnionaBibliaGdanska/Ksiega-Rodzaju/1
