@@ -1,4 +1,3 @@
-## Introduction
 ![NewBibleAppBanner](https://user-images.githubusercontent.com/110595617/191964252-8eeb543d-d579-4020-84f6-960442b77d87.jpg)
 
 ## NOTE:
